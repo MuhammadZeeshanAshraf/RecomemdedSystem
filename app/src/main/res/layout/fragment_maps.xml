@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:fab="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".Fragments.MapsFragment">
+
+
+	<FrameLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<com.google.android.gms.maps.MapView
+			android:id="@+id/map_view"
+			android:name="com.google.android.gms.maps.SupportMapFragment"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+
+
+		</com.google.android.gms.maps.MapView>
+
+	</FrameLayout>
+
+	<LinearLayout
+		android:id="@+id/fz_searchlayout"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="10dp"
+		android:layout_marginTop="10dp"
+		android:layout_marginEnd="55dp"
+		android:background="@drawable/receiver_messages_layout"
+		android:elevation="50dp"
+		android:padding="10dp"
+		android:visibility="gone">
+
+		<ImageView
+			android:id="@+id/fz_search"
+			android:layout_width="32dp"
+			android:layout_height="32dp"
+			android:src="@drawable/ic_search"
+			app:tint="@color/colorPrimaryDark" />
+
+
+		<EditText
+			android:id="@+id/fz_search_here"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="10dp"
+			android:background="@null"
+			android:ems="10"
+			android:hint="Search Here"
+			android:imeOptions="actionSearch"
+			android:maxLines="1" />
+
+	</LinearLayout>
+
+
+	<com.google.android.material.floatingactionbutton.FloatingActionButton
+		android:id="@+id/addLocation"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentEnd="true"
+		android:layout_alignParentBottom="true"
+		android:layout_margin="30dp"
+		android:src="@drawable/plus"
+		android:background="@color/colorPrimary"
+		app:fab_colorPressed="@color/yellow"
+		app:fab_icon="@drawable/plus"
+		android:tint="@color/white"
+		app:fab_colorNormal="@color/colorPrimary"
+		app:fab_size="normal"/>
+
+<!--	<com.fangxu.allangleexpandablebutton.AllAngleExpandableButton-->
+<!--		android:id="@+id/button_expandable_110_250"-->
+<!--		android:layout_width="wrap_content"-->
+<!--		android:layout_height="wrap_content"-->
+<!--		android:layout_alignParentEnd="true"-->
+<!--		android:layout_centerInParent="true"-->
+<!--		app:aebAnimDurationMillis="100"-->
+<!--		app:aebButtonElevation="4dp"-->
+<!--		app:aebButtonGapDp="95dp"-->
+<!--		app:aebEndAngleDegree="250"-->
+<!--		app:aebIsSelectionMode="false"-->
+<!--		app:aebMainButtonSizeDp="45dp"-->
+<!--		app:aebRippleEffect="true"-->
+<!--		app:aebStartAngleDegree="110"-->
+<!--		app:aebSubButtonSizeDp="45dp" />-->
+
+
+	<!--<com.getbase.floatingactionbutton.FloatingActionsMenu-->
+	<!--	android:id="@+id/map_add"-->
+	<!--	android:layout_width="wrap_content"-->
+	<!--	android:layout_height="wrap_content"-->
+	<!--	android:layout_alignParentRight="true"-->
+	<!--	fab:fab_addButtonColorNormal="@color/colorPrimary"-->
+	<!--	fab:fab_addButtonColorPressed="@color/white_pressed"-->
+	<!--	fab:fab_addButtonPlusIconColor="@color/colorWhite"-->
+	<!--	fab:fab_addButtonSize="mini"-->
+	<!--	fab:fab_expandDirection="down"-->
+	<!--	fab:fab_labelStyle="@style/menu_labels_style">-->
+
+	<!--	<com.getbase.floatingactionbutton.FloatingActionButton-->
+	<!--		android:id="@+id/find_friend_locations"-->
+	<!--		android:layout_width="wrap_content"-->
+	<!--		android:layout_height="wrap_content"-->
+	<!--		fab:fab_colorNormal="@color/colorWhite"-->
+	<!--		fab:fab_colorPressed="@color/white_pressed"-->
+	<!--		fab:fab_icon="@drawable/ic_find_friend_location"-->
+	<!--		fab:fab_size="mini"-->
+	<!--		fab:fab_title="Find Friends" />-->
+
+
+	<!--	<com.getbase.floatingactionbutton.FloatingActionButton-->
+	<!--		android:id="@+id/add_location"-->
+	<!--		android:layout_width="wrap_content"-->
+	<!--		android:layout_height="wrap_content"-->
+	<!--		fab:fab_colorNormal="@color/colorPrimary"-->
+	<!--		fab:fab_colorPressed="@color/white_pressed"-->
+	<!--		fab:fab_icon="@drawable/ic_add_location"-->
+	<!--		fab:fab_size="mini"-->
+	<!--		fab:fab_title="Add Location" />-->
+
+	<!--	<com.getbase.floatingactionbutton.FloatingActionButton-->
+	<!--		android:id="@+id/friend_location"-->
+	<!--		android:layout_width="wrap_content"-->
+	<!--		android:layout_height="wrap_content"-->
+	<!--		fab:fab_colorNormal="@color/white"-->
+	<!--		fab:fab_colorPressed="@color/white_pressed"-->
+	<!--		fab:fab_icon="@drawable/ic_friends_location"-->
+	<!--		fab:fab_size="mini"-->
+	<!--		fab:fab_title="Friends Location" />-->
+
+	<!--	<com.getbase.floatingactionbutton.FloatingActionButton-->
+	<!--		android:id="@+id/my_location"-->
+	<!--		android:layout_width="wrap_content"-->
+	<!--		android:layout_height="wrap_content"-->
+	<!--		fab:fab_colorNormal="@color/colorPrimary"-->
+	<!--		fab:fab_colorPressed="@color/white_pressed"-->
+	<!--		fab:fab_icon="@drawable/ic_my_location"-->
+	<!--		fab:fab_size="mini"-->
+	<!--		fab:fab_title="My Location" />-->
+
+	<!--</com.getbase.floatingactionbutton.FloatingActionsMenu>-->
+
+</RelativeLayout>

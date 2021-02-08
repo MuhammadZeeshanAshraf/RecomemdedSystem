@@ -1,0 +1,89 @@
+<resources>
+	<string name="app_name">Recommended System</string>
+	<string name="google_maps_key">AIzaSyDrOifbfQPhFUDiFUrGTPe1jvf5IY-cYCg</string>
+
+
+	<string name="quote">“Every problem is a gift—without problems we would not grow.” – Anthony Robbins</string>
+	<string name="sample">Our creamy Royal cheesecake topped with a delicious film of strawberry glaze and a Belgian chocolate half sphere. 8.75 Inch Diameter Serves 10-14</string>
+
+
+	<string name="title_onboarding_1">Welcome to Recommended System App</string>
+	<string name="description_onboarding_1">The Recommended System is an e-commerce business app which provides the best quality products/services at the door step of customer within less time.</string>
+
+	<string name="title_onboarding_2">Shop From AnyWhere</string>
+	<string name="description_onboarding_2"> Recommended System App is providing services in Lahore Faisalabad, Multan and Karachi. </string>
+
+	<string name="title_onboarding_3">Vision and Mission Statement</string>
+	<string name="description_onboarding_3">The idea of business under the instructions of our Prophet Hazrat Muhammad ﷺ.</string>
+
+	<string name="start_text_advice">By continuing on this application you agree to our Terms of Use and Privacy Policy</string>
+
+	<string name="start">start</string>
+	<string name="skip">Skip</string>
+	<string name="finish">finish</string>
+	<string name="next">next</string>
+	<string name="back">back</string>
+	<string name="sign_in">Sign In</string>
+	<string name="add_category">Add Category</string>
+	<string name="name">Name</string>
+	<string name="edit_category">Update Category</string>
+	<string name="add_product">Add Product</string>
+
+
+	<string name="str_chat">Chat</string>
+	<string name="str_home">Home</string>
+	<string name="str_cart">Cart</string>
+	<string name="str_profile">Profile</string>
+	<string name="str_name">Zeeshan</string>
+	<string name="str_about">About us</string>
+	<string name="str_mail">zeeshan@gmail.com</string>
+	<!-- TODO: Remove or change this placeholder text -->
+	<string name="hello_blank_fragment">Hello blank fragment</string>
+	<string name="str_orders">Order</string>
+	<string name="full_name">Full Name</string>
+	<string name="username">Username</string>
+	<string name="save">Save</string>
+	<string name="billing">Billing</string>
+	<string name="address">Address</string>
+	<string name="city">City</string>
+	<string name="country">Country</string>
+	<string name="postcode">Postcode</string>
+	<string name="phone_number">Phone Number</string>
+	<string name="currency">$</string>
+	<string name="euro">€</string>
+
+	<string name="your_order_is_booked">Your Order is booked. Order ID:</string>
+	<string name="to_track_go_to_your_order_page">To Track, go to your orders page</string>
+	<string name="pending">Pending</string>
+	<string name="payment_method">Payment Method</string>
+	<string name="payment">Payment</string>
+	<string name="order_status">Order Status</string>
+	<string name="order_processing">Processing</string>
+	<string name="order_on_hold">On-Hold</string>
+	<string name="completed_order">Completed</string>
+	<string name="order_cancelled">Canceled</string>
+	<string name="order_refunded">Refunded</string>
+	<string name="order_failder">Failed</string>
+	<string name="order_trash">Trash</string>
+	<string name="order_pending">Pending</string>
+	<string name="remove_from_cart">Remove From Cart</string>
+	<string name="quantity">Quantity</string>
+	<string name="login">Login</string>
+	<string name="logout">Logout</string>
+	<string name="looking">I am looking for..</string>
+	<string name="don_t_have_an_account">Don’t have an account? </string>
+	<string name="sign_up">Sign Up</string>
+	<string name="find_the_perfect_dessert_for_your_next_meal">Find the perfect item for your shopping.</string>
+	<string name="store">Store</string>
+	<string name="_5650">€5650</string>
+	<string name="cnic_number">CNIC Number</string>
+	<string name="rs_100">Rs 100</string>
+	<string name="please_wait_while_we_are_fetching_the_services">Please wait while we are fetching the services.</string>
+
+	<string name="order_placed">Order placed</string>
+	<string name="order_sucess_text">Your order #212423 was placed with success. You can see the status of the order at any time.</string>
+	<string name="close">Close</string>
+	<string name="open">Open</string>
+	<string name="contact_us">Contact Us</string>
+	<string name="whatsapp_us">WhatsApp Us</string>
+</resources>
